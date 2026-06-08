@@ -1,0 +1,31 @@
+seed: 42
+device: auto
+threshold: 0.5
+
+paths:
+  bit_repo: third_party/BIT_CD
+  changeformer_repo: third_party/ChangeFormer
+  data_root: data
+  results_root: results
+
+datasets:
+  levir-256:
+    path: D:\datasets\LEVIR-CD
+    preprocessing:
+      patching:
+        enabled: true
+        patch_size: 256
+        stride: 256
+  whu-256:
+    path: D:\datasets\WHU-CD
+    preprocessing:
+      patching:
+        enabled: true
+        patch_size: 256
+  dsifn-256:
+    path: D:\datasets\DSIFN-CD
+    preprocessing:
+      patching:
+        enabled: true
+        patch_size: 256
+        stride: 256

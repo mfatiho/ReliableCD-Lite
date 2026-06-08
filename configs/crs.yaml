@@ -1,0 +1,3 @@
+uncertainty_source:
+  BIT: mean_mi
+  ChangeFormer: mean_entropy

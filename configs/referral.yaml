@@ -1,0 +1,18 @@
+budgets: [0.01, 0.03, 0.05, 0.10, 0.20]
+budget_definition: image_area
+component_selection: cumulative_area
+allow_component_budget_overshoot: true
+oracle_gain_label: upper_bound
+
+main_baselines: ["random", "margin", "mi", "crs3", "crs4"]
+supplementary_baselines:
+  - random
+  - area
+  - low_confidence
+  - margin
+  - entropy
+  - mi
+  - tta
+  - shift
+  - crs3
+  - crs4

@@ -1,0 +1,12 @@
+mc_dropout:
+  enabled_for: ["BIT"]
+  n_passes: 20
+  inject_p: 0.1
+
+tta:
+  augmentations: ["identity", "hflip", "vflip", "rot90", "rot180", "rot270"]
+
+shift_sensitivity:
+  shift_pixels: 1
+  directions: [[1, 0], [-1, 0], [0, 1], [0, -1]]
+  shift_image: A

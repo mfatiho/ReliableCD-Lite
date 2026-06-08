@@ -216,3 +216,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+checkpoints/bit/
+checkpoints/changeformer/
+results/
+third_party/

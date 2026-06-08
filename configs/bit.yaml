@@ -1,0 +1,3 @@
+model_name: BIT
+threshold: 0.5
+repo_root: third_party/BIT_CD

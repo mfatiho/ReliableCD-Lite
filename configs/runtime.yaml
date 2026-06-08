@@ -1,0 +1,5 @@
+modes:
+  deterministic: ["probability"]
+  fast: ["probability", "entropy", "margin", "component_stats"]
+  balanced: ["probability", "entropy", "margin", "component_stats", "tta"]
+  full: ["probability", "entropy", "margin", "component_stats", "tta", "mc_dropout", "shift"]

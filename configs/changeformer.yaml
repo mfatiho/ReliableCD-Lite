@@ -1,0 +1,4 @@
+model_name: ChangeFormer
+threshold: 0.5
+repo_root: third_party/ChangeFormer
+dataset_name: LEVIR-CD
